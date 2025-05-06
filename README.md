@@ -1,47 +1,64 @@
-# Caesar Cipher 🔐  
-A simple Caesar Cipher tool built entirely using **HTML**, **CSS**, and **JavaScript**.
+# 🚗 Car Parking Game
 
-🎨 The styling and structure are inspired by the classic Caesar encryption technique — minimal, elegant, and intuitive.
+A fun and interactive car parking game built entirely with **HTML**, **CSS**, and **JavaScript** using **Object-Oriented Programming (OOP)** principles.
 
-🚀 **Live Demo:** [Click here to view](https://wahabkhan9.github.io/Caesar-Cipher/)
+🎮 **Live Demo:** [Play the Game](https://wahabkhan9.github.io/Car-Game/)  
 
 ---
 
 ## 📄 Project Description
 
-This tool allows users to encrypt or decrypt text using the Caesar Cipher algorithm. It visually demonstrates how basic shift ciphers work and serves as an educational and interactive cryptography example.
+In this game, you control a car and must park it in randomly highlighted spots. Your goal is to park correctly in all designated spots to win the game. The game challenges your coordination, spatial awareness, and logic.
+
+---
+
+## 👨‍💻 OOP Concepts Used
+
+### 🔒 Encapsulation
+Each class encapsulates its own data and behavior. For example, the `Car` class manages its internal state (position, speed, angle) and exposes movement behaviors through methods.
+
+### 🎭 Abstraction
+Complex logic is hidden behind well-defined class methods. Users interact with high-level game actions, not low-level implementation details.
+
+---
+
+## 🧱 Class Overview
+
+### 🚗 `Car` Class
+- Handles movement and steering using arrow key input.
+- Uses trigonometry to calculate the car’s real-time position and rotation.
+- Implements acceleration, deceleration, and friction for smoother controls.
+
+### 🎮 `Game` Class
+- Manages gameplay flow, score, and win/loss logic.
+- Randomizes parking spots.
+- Tracks successful and failed parking attempts.
+- Displays game over or success messages.
 
 ---
 
 ## 🎯 Features
 
-- 🔁 **Toggle Modes** – Switch between plaintext-to-encrypted and encrypted-to-plaintext modes.
-- 🔐 **Encryption & Decryption** – Works both ways with custom shift values.
-- 🔢 **Adjustable Shift Value** – Input your preferred number of shifts.
-- 📋 **Read-Only Output Field** – Prevent accidental modification of results.
-- ⚠️ **Error Handling** – Displays messages for invalid inputs.
-- 📱 **Responsive Design** – Works well on all screen sizes and devices.
+- 🅿️ **Random Parking Targets** – Parking spots are randomly selected each game.
+- ✅ **Win Conditions** – Park correctly in all designated spots to win.
+- ❌ **Loss Conditions** – Parking in the wrong spot or repeating a spot ends the game.
+- 📦 **Encapsulated Game Logic** – All game mechanics are modular and reusable.
+- 🔁 **Replayable** – Refresh to try new random parking challenges.
+- 📱 **Responsive Design** – Works well on desktop and tablet screens.
 
 ---
 
-## 🛠️ Technologies Used
-
-- **HTML5** – Structure of the web page  
-- **CSS3** – Caesar-themed styling and responsive layout  
-- **JavaScript** – Cipher logic, input handling, and UI interaction
-
----
-
-## 🚀 Run the Project Locally
-
-To use this project on your local machine:
+## 🚀 Run the Game Locally
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/wahabkhan9/Caesar-Cipher.git
+git clone https://github.com/wahabkhan9/Car-Game.git
 
-# 2. Navigate into the project folder
-cd Caesar-Cipher
+# 2. Navigate to the project directory
+cd Car-Game
 
-# 3. Open the project
-# Just open the index.html file in your browser
+# 3. Launch the game
+# Open index.html in any web browser
+
+
+
