@@ -1,56 +1,47 @@
-# 🚗 Car Parking Game
-A simple and fun car parking game built using HTML, CSS, and JavaScript.
+# Caesar Cipher 🔐  
+A simple Caesar Cipher tool built entirely using **HTML**, **CSS**, and **JavaScript**.
 
+🎨 The styling and structure are inspired by the classic Caesar encryption technique — minimal, elegant, and intuitive.
 
-🚀 **Live Demo:** [Click here to view](https://wahabkhan9.github.io/Car-Game/)
+🚀 **Live Demo:** [Click here to view](https://wahabkhan9.github.io/Caesar-Cipher/)
 
+---
 
-📄 Project Description
-In this game, you control a car and must park it in the correct spot based on instructions.
-The game tests your driving and parking skills with smooth car movement, turning, and boundary checks.
+## 📄 Project Description
 
-🎯 Features:
-🅿️ Random Parking Targets – Park the car in randomly highlighted parking spots.
+This tool allows users to encrypt or decrypt text using the Caesar Cipher algorithm. It visually demonstrates how basic shift ciphers work and serves as an educational and interactive cryptography example.
 
-✅ Success Messages – Get feedback when parking successfully.
+---
 
-❌ Game Over Handling – If you park in the wrong spot or use the same spot twice, the game ends.
+## 🎯 Features
 
-🏆 Winning Condition – Successfully park in all required spots to win the game.
+- 🔁 **Toggle Modes** – Switch between plaintext-to-encrypted and encrypted-to-plaintext modes.
+- 🔐 **Encryption & Decryption** – Works both ways with custom shift values.
+- 🔢 **Adjustable Shift Value** – Input your preferred number of shifts.
+- 📋 **Read-Only Output Field** – Prevent accidental modification of results.
+- ⚠️ **Error Handling** – Displays messages for invalid inputs.
+- 📱 **Responsive Design** – Works well on all screen sizes and devices.
 
-🎲 Randomized Spot Order – Parking spots change randomly every game for more fun and challenge.
+---
 
-🚀 Run the Project Locally
-To run this project on your local machine:
+## 🛠️ Technologies Used
 
-bash
-Copy
-Edit
+- **HTML5** – Structure of the web page  
+- **CSS3** – Caesar-themed styling and responsive layout  
+- **JavaScript** – Cipher logic, input handling, and UI interaction
+
+---
+
+## 🚀 Run the Project Locally
+
+To use this project on your local machine:
+
+```bash
 # 1. Clone the repository
-git clone https://github.com/wahabkhan9/Car-Game.git
+git clone https://github.com/wahabkhan9/Caesar-Cipher.git
 
-# 2. Navigate into the project directory
-cd Car-Game
+# 2. Navigate into the project folder
+cd Caesar-Cipher
 
 # 3. Open the project
-# Simply open the index.html file in your web browser
-Or just drag and drop the index.html into your browser!
-
-🎮 How to Play
-Arrow Up (↑): Move Forward
-
-Arrow Down (↓): Move Backward
-
-Arrow Left (←): Turn Left
-
-Arrow Right (→): Turn Right
-
-Objective:
-Park in the blue highlighted spot. After successful parking, the next spot will be shown. Park correctly in all spots to win!
-
-🛠️ Technologies Used
-HTML5 – Structure and layout
-
-CSS3 – Styling and design
-
-JavaScript – Game logic and interactivity
+# Just open the index.html file in your browser
